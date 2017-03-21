@@ -3,6 +3,7 @@ package com.example.mqumail.helloimage;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
@@ -18,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView b =(ImageView) findViewById(R.id.imageView2);
         Picasso.with(this).load("http://i.imgur.com/DvpvklR.png").into(b);
+
+
+
     }
 }
